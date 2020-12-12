@@ -1,7 +1,9 @@
 # Neural_Network_Charity_Analysis
 
 ## Analysis Overview
+This project requires using knowledge of machine learning and neural networks. A dataset was provided (charity_data.csv) by Aplphabet Soup's business team for analysis. I assisted with using the features of the dataset help create a binary classifier capable of predicting whether applicants will be successful if funded by Alphabet Soup's foundation. The dataset contains more than 34,00 organizations who have received funding from Alphabet Soup over the years. 
 
+The dataset was prepocessed using density plots to visualize the value counts of target variables,  for the neural network, the processed data was then  
 ## Results 
 The following bulleted lists and images to support your answers, address the following questions.
 
