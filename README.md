@@ -11,7 +11,7 @@ The following bulleted questions and images will provide support for the results
 ### Data Preprocessing
 -- What variable(s) are considered the target(s) for your model?
    
-   One of the columns in the dataset titled "IS_SUCCESSFUL" is the target for the model. The column displays either the number '1' or '0' to denote 'yes' or 'no' in                reference to the probability of the organization being succeddful if funded by Alphabet Soup Foundation.
+   One of the columns in the dataset titled "IS_SUCCESSFUL" is the target for the model. The column displays either the number '1' or '0' to denote 'yes' or 'no' in                reference to the probability of the organization being successful if funded by Alphabet Soup Foundation.
     
 -- What variable(s) are considered to be the features for your model?
    
