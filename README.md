@@ -10,20 +10,25 @@ The following bulleted questions and images will provide support for the results
 
 ### Data Preprocessing
 -- What variable(s) are considered the target(s) for your model?
-    One of the columns in the dataset titled "IS_SUCCESSFUL" is the target for the model. The column displays either the number '1' or '0' to denote 'yes' or 'no' in                 reference to the probability of the organization being succeddful if funded by Alphabet Soup Foundation.
+   
+   One of the columns in the dataset titled "IS_SUCCESSFUL" is the target for the model. The column displays either the number '1' or '0' to denote 'yes' or 'no' in                reference to the probability of the organization being succeddful if funded by Alphabet Soup Foundation.
     
 -- What variable(s) are considered to be the features for your model?
-    The columns of the dataset are the variables and are considered the features for this model. 
+   
+   The columns of the dataset are the variables and are considered the features for this model. 
     
 -- What variable(s) are neither targets nor features, and should be removed from the input data?
-    Two columns were removed from the model, 'EIN' and 'NAME' because the information they provided is not essential for predicting success if funded.
+   
+   Two columns were removed from the model, 'EIN' and 'NAME' because the information they provided is not essential for predicting success if funded.
 
 ### Compiling, Training, and Evaluating the Model
 -- How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    This model has two phases of compiling, training, and evaluating. The first phase utilized two hidden layers and one outer layer. The neurons were arranged with 80 in the first layer, 30 in the second layer, and 1 in the third layer. Three activation functions were used in the first phase: 'relu', 'sigmoid', and 'linear'.
+   
+   This model has two phases of compiling, training, and evaluating. The first phase utilized two hidden layers and one outer layer. The neurons were arranged with 80 in the        first layer, 30 in the second layer, and 1 in the third layer. Three activation functions were used in the first phase: 'relu', 'sigmoid', and 'linear'.
     
 -- Were you able to achieve the target model performance?
-    I was not able to achieve the target model preformance in the first phase. The highest accuracy I was able to manipulate the model was .7252
+   
+   I was not able to achieve the target model preformance in the first phase. The highest accuracy I was able to manipulate the model was .7252
 
 -- What steps did you take to try and increase model performance?
 
