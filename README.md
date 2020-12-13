@@ -9,6 +9,7 @@ The dataset was read into a Jupyter Notebook enviroment using a mlenv type file 
 The following bulleted questions and images will provide support for the results of this project:
 
 ### Data Preprocessing
+
 -- What variable(s) are considered the target(s) for your model?
    
    One of the columns in the dataset titled "IS_SUCCESSFUL" is the target for the model. The column displays either the number '1' or '0' to denote 'yes' or 'no' in                reference to the probability of the organization being successful if funded by Alphabet Soup Foundation.
