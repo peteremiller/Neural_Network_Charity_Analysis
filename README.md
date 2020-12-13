@@ -19,6 +19,8 @@ The following bulleted questions and images will provide support for the results
 -- What variable(s) are considered to be the features for your model?
    
    The columns of the dataset are the variables and are considered the features for this model. 
+   
+   <img src="Resources/fig4.png">
     
 -- What variable(s) are neither targets nor features, and should be removed from the input data?
    
