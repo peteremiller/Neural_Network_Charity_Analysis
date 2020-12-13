@@ -43,7 +43,7 @@ The following bulleted questions and images (located below the answer) will prov
 
 -- What steps did you take to try and increase model performance?
    
-   In the second phase I attempted to optimize the model by adding hidden layers, reducing the number of neurons, increasing the epochs, and using the same activation function      for every layer of the model. I was able to increase the model performance to .7321, but only once, which I considered to be an annomily. The sustainable results attained are reflected in the .7271
+   In the second phase I attempted to optimize the model by adding hidden layers, reducing the number of neurons, increasing the epochs, and using the same activation function      for every layer of the model. I was able to increase the model performance to .7321, but only once, which I considered to be an annomily. The sustainable result that the model performed is .7271 and was do so several times. I changed the number of hidden layers, number of neorons and epochs several times, but was not able to create a result that increased the performance of the deep learning model to reach the .7500 mark. 
    
    <img src="Resources/fig3.png">
    
@@ -51,6 +51,11 @@ The following bulleted questions and images (located below the answer) will prov
 
 
 ## Summary
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+In summary, I believe there are a few reasons for the performance of the model. First, in the APPLICATION_TYPE column there is a higher density of values with a unique count from 0 to 10,000. The graph visualizes which values could be joined to possibly create a less congested encoded dataframe. 'Noise', unnecessary data, creates the possibility of reducing the accuracy of the model's performance. There is reason for concern, in my opinion, that the dataset contains more data than is necessary for predicting success. 
+
+<img src="Resources/fig6.png">
+
+
+oSummarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
 There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
