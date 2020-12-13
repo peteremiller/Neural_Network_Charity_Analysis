@@ -25,6 +25,8 @@ The following bulleted questions and images will provide support for the results
 -- What variable(s) are neither targets nor features, and should be removed from the input data?
    
    Two columns were removed from the model, 'EIN' and 'NAME' because the information they provided is not essential for predicting success of future funding.
+   
+   <img src="Resources/fig5.png">
 
 ### Compiling, Training, and Evaluating the Model
 -- How many neurons, layers, and activation functions did you select for your neural network model, and why?
