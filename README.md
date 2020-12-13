@@ -44,6 +44,10 @@ The following bulleted questions and images will provide support for the results
 -- What steps did you take to try and increase model performance?
    
    The second phase 
+   
+   <img src="Resources/fig3.png">
+   
+   <img src="Resources/fig1.png">
 ## Summary
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
