@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 ## Analysis Overview
-This project requires applying knowledge of machine learning and neural networks. A dataset was provided (charity_data.csv) by Aplphabet Soup's business team for analysis. I assisted with using the features of the dataset to create a binary classifier capable of predicting whether applicants will be successful if funded by Alphabet Soup Foundation. The dataset contains more than 34,00 organizations who have received funding from Alphabet Soup over the years. 
+This project requires applying knowledge of machine learning and neural networks. A dataset was provided (charity_data.csv) by Alphabet Soup's business team for analysis. I assisted with using the features of the dataset to create a binary classifier capable of predicting whether applicants will be successful if funded by Alphabet Soup Foundation. The dataset contains more than 34,00 organizations who have received funding from Alphabet Soup over the years. 
 
 The dataset was read into a Jupyter Notebook enviroment using a mlenv type file where it was prepocessed using density plots to visualize the value counts of target variables, fit and transform was performed on a variable list using OneHotEncoder, and processed data was split into faeture and taget arrays and then split again into a training and testing dataset. A StandardScaler instance was created, the data was scaled, compiled, trained and tested for use in the neural network. The data was trained with a sequencial neural network model and throughout the analysis different numbers of layers, various amounts of nodes and several activation functions were applied to the dataset for predicting reliability and evaluating the model for the highest level of optimization.  
 
