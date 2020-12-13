@@ -32,6 +32,8 @@ The following bulleted questions and images will provide support for the results
 -- How many neurons, layers, and activation functions did you select for your neural network model, and why?
    
    This model has two phases of compiling, training, and evaluating. The first phase utilized two hidden layers and one outer layer. The neurons were arranged with 80 in the        first layer, 30 in the second layer, and 1 in the third layer. Three activation functions were used in the first phase: 'relu', 'sigmoid', and 'linear'. The training epochs was set at 10.
+   
+   <img src="Resources/fig9.png">
     
 -- Were you able to achieve the target model performance?
    
