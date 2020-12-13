@@ -37,7 +37,9 @@ The following bulleted questions and images will provide support for the results
     
 -- Were you able to achieve the target model performance?
    
-   I was not able to achieve the target model preformance in the first phase. The highest accuracy evaluated by the model was .7285
+   I was not able to achieve the target model preformance in the first phase. The highest accuracy evaluated by the model was .7252
+   
+   <img src="Resources/fig8.png">
 
 -- What steps did you take to try and increase model performance?
    
