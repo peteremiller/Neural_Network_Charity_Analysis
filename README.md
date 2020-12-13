@@ -56,6 +56,6 @@ In summary, I believe there are a few reasons for the performance of the model. 
 <img src="Resources/fig6.png">
 
 
-oSummarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+Second, a grpah of the 'CLASSIFICATION' column in the dataset visualizes a significant spike in unique values between 0 to 2500. I believe this may indicate that the data would perform more efficiently when grouped into one column. 
 
-There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
+<img src="Resources/fig7.png">
