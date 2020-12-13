@@ -6,7 +6,7 @@ This project requires using knowledge of machine learning and neural networks. A
 The dataset was read into a Jupyter Notebook enviroment using a mlenv type file where it was prepocessed using density plots to visualize the value counts of target variables, fit and transform was performed on a variable list using OneHotEncoder, and processed data was split into faeture and taget arrays and then split again into a training and testing dataset. A StandardScaler instance was created, the data was scaled, compiled, trained and tested for use in the neural network. The data was trained with a sequencial neural network model and throughout the analysis different numbers of layers, various amounts of nodes and several activation functions were applied to the dataset for predicting reliability and evaluating the model for the highest level of optimization.  
 
 ## Results 
-The following bulleted questions and images will provide support for the results of this project:
+The following bulleted questions and images (located below the answer) will provide support for the results of this project:
 
 ### Data Preprocessing
 
@@ -43,11 +43,13 @@ The following bulleted questions and images will provide support for the results
 
 -- What steps did you take to try and increase model performance?
    
-   The second phase 
+   In the second phase I attempted to optimize the model by adding hidden layers, reducing the number of neurons, increasing the epochs, and using the same activation function      for every layer of the model. I was able to increase the model performance to .7321, but only once, which I considered to be an annomily. The sustainable results attained are reflected in the .7271
    
    <img src="Resources/fig3.png">
    
    <img src="Resources/fig1.png">
+
+
 ## Summary
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
